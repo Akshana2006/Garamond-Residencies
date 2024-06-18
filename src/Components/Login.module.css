@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+@import url("https://cdn.sanity.io/images/v48q37k7/production/d09208183125ab47493d5de2f8710b6faa27d7cc-3000x2000.jpg");
+
+@font-face {
+  font-family: "EB Garamond", serif;
+  src: url("https://fonts.googleapis.com/css2?family=EB+Garamond");
+}
+
+* {
+  margin: 0;
+  padding: 10px;
+}
+
+.intro {
+  background: url("https://cdn.sanity.io/images/v48q37k7/production/d09208183125ab47493d5de2f8710b6faa27d7cc-3000x2000.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.intro h1 {
+  margin-top: 10%;
+}
+
+.loginbox {
+  margin-top: 4%;
+}
+
+.input .showPass {
+  background: white;
+  color: black;
+}
+.button {
+}

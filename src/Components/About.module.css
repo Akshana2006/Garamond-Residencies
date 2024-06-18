@@ -1,0 +1,97 @@
+.header {
+    background-color: rgb(250, 207, 207) ;
+}
+
+.header ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.header li {
+    float: left;
+}
+
+.header li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+}
+
+.header li a:hover{
+    color: azure;
+}
+
+.header .search {
+    float: right;
+}
+
+.banner h1 {
+  text-align: center;
+}
+
+.banner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner h4 {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50%;
+}
+
+.body .ourTeam h2 {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.body .ourTeam .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.body .ourTeam .column .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.body .ourTeam .column .card img {
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: block;
+    height: 500px;
+    object-fit: fill;
+}
+
+.body .ourTeam .column .container {
+    padding: 0 16px;
+}
+
+.body .ourTeam .column .container h4 {
+    color: gray;
+}
+.contact {
+    text-align: center;
+    margin-top: 64%;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+.contact a:hover {
+   color:rgb(242, 130, 130);
+}
+.foot_items {
+    text-align: center;
+   
+}
